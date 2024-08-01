@@ -129,7 +129,7 @@ borrow_limit （当信誉等级为优秀时，借阅上限为4、当信誉等级
 
  
 
-![image-20240801094600806](.\image\image-20240801094600806.png)
+<img src=".\image\image-20240801094600806.png" alt="image-20240801094600806" />
 
 在Java文件夹下，各个文件夹的具体功能分别如下：
 
@@ -142,7 +142,7 @@ borrow_limit （当信誉等级为优秀时，借阅上限为4、当信誉等级
 
 
 
-![image-20240801094627055](.\image\image-20240801094627055.png)
+<img src=".\image\image-20240801094627055.png" alt="image-20240801094627055" />
 
 在resource文件夹下，各个模块功能如下所示：
 
@@ -165,24 +165,24 @@ borrow_limit （当信誉等级为优秀时，借阅上限为4、当信誉等级
 
 <img src=".\image\image-20240801095459110.png" alt="image-20240801095459110"  />
 
-![image-20240801095633237](.\image\image-20240801095633237.png)
+<img src=".\image\image-20240801095633237.png" alt="image-20240801095633237" />
 
-![image-20240801095944742](.\image\image-20240801095944742.png)
+<img src=".\image\image-20240801095944742.png" alt="image-20240801095944742" />
 
-![image-20240801095956638](.\image\image-20240801095956638.png)
+<img src=".\image\image-20240801095956638.png" alt="image-20240801095956638" />
 
-![image-20240801100011627](.\image\image-20240801100011627.png)
+<img src=".\image\image-20240801100011627.png" alt="image-20240801100011627" />
 
-![image-20240801100028514](.\image\image-20240801100028514.png)
+<img src=".\image\image-20240801100028514.png" alt="image-20240801100028514" />
 
-![image-20240801100045608](.\image\image-20240801100045608.png)
+<img src=".\image\image-20240801100045608.png" alt="image-20240801100045608" />
 
 
 
 #### 管理端
 
-![image-20240801100105229](.\image\image-20240801100105229.png)
+<img src=".\image\image-20240801100105229.png" alt="image-20240801100105229" />
 
-![image-20240801100125490](.\image\image-20240801100125490.png)
+<img src=".\image\image-20240801100125490.png" alt="image-20240801100125490" />
 
-![image-20240801100140431](.\image\image-20240801100140431.png)
+<img src=".\image\image-20240801100140431.png" alt="image-20240801100140431" />
