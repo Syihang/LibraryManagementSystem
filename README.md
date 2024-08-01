@@ -119,7 +119,9 @@ borrow_limit （当信誉等级为优秀时，借阅上限为4、当信誉等级
 
 ### 项目结构       
 
-![image-20240801094530266](D:\GitRepo\LibraryManagementSystem\image\image-20240801094530266.png)
+
+
+<img src=".\image\image-20240801094530266.png" alt="image-20240801094530266" />
 
 项目大文件夹下包括lib与src两个文件，其中，lib存储项目所用到的依赖，src存储项目的实现方法以及资源文件。
 
@@ -127,7 +129,7 @@ borrow_limit （当信誉等级为优秀时，借阅上限为4、当信誉等级
 
  
 
-![image-20240801094600806](D:\GitRepo\LibraryManagementSystem\image\image-20240801094600806.png)
+![image-20240801094600806](.\image\image-20240801094600806.png)
 
 在Java文件夹下，各个文件夹的具体功能分别如下：
 
@@ -140,7 +142,7 @@ borrow_limit （当信誉等级为优秀时，借阅上限为4、当信誉等级
 
 
 
-![image-20240801094627055](D:\GitRepo\LibraryManagementSystem\image\image-20240801094627055.png)
+![image-20240801094627055](.\image\image-20240801094627055.png)
 
 在resource文件夹下，各个模块功能如下所示：
 
@@ -157,30 +159,30 @@ borrow_limit （当信誉等级为优秀时，借阅上限为4、当信誉等级
 
 #### 用户端
 
-<img src="D:\GitRepo\LibraryManagementSystem\image\login.png" alt="image-20240801094252258" style="zoom:80%;" />
+<img src=".\image\login.png" alt="image-20240801094252258" style="zoom:80%;" />
 
 
 
-<img src="D:\GitRepo\LibraryManagementSystem\image\image-20240801095459110.png" alt="image-20240801095459110"  />
+<img src=".\image\image-20240801095459110.png" alt="image-20240801095459110"  />
 
-![image-20240801095633237](D:\GitRepo\LibraryManagementSystem\image\image-20240801095633237.png)
+![image-20240801095633237](.\image\image-20240801095633237.png)
 
-![image-20240801095944742](D:\GitRepo\LibraryManagementSystem\image\image-20240801095944742.png)
+![image-20240801095944742](.\image\image-20240801095944742.png)
 
-![image-20240801095956638](D:\GitRepo\LibraryManagementSystem\image\image-20240801095956638.png)
+![image-20240801095956638](.\image\image-20240801095956638.png)
 
-![image-20240801100011627](D:\GitRepo\LibraryManagementSystem\image\image-20240801100011627.png)
+![image-20240801100011627](.\image\image-20240801100011627.png)
 
-![image-20240801100028514](D:\GitRepo\LibraryManagementSystem\image\image-20240801100028514.png)
+![image-20240801100028514](.\image\image-20240801100028514.png)
 
-![image-20240801100045608](D:\GitRepo\LibraryManagementSystem\image\image-20240801100045608.png)
+![image-20240801100045608](.\image\image-20240801100045608.png)
 
 
 
 #### 管理端
 
-![image-20240801100105229](D:\GitRepo\LibraryManagementSystem\image\image-20240801100105229.png)
+![image-20240801100105229](.\image\image-20240801100105229.png)
 
-![image-20240801100125490](D:\GitRepo\LibraryManagementSystem\image\image-20240801100125490.png)
+![image-20240801100125490](.\image\image-20240801100125490.png)
 
-![image-20240801100140431](D:\GitRepo\LibraryManagementSystem\image\image-20240801100140431.png)
+![image-20240801100140431](.\image\image-20240801100140431.png)
