@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="536.0" prefWidth="752.0" stylesheets="@../css/lendBook.css" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.suyihang.controller.student.LendBookItemController">
+   <children>
+      <VBox layoutX="172.0" layoutY="138.0" prefHeight="536.0" prefWidth="752.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <HBox prefHeight="58.0" prefWidth="752.0">
+               <children>
+                  <Label alignment="CENTER" prefHeight="58.0" prefWidth="130.0" text="书籍:">
+                     <font>
+                        <Font size="25.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="titleLabel" alignment="CENTER" prefHeight="58.0" prefWidth="320.0" text="title">
+                     <font>
+                        <Font size="25.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" prefHeight="58.0" prefWidth="105.0" text="库存：">
+                     <font>
+                        <Font size="25.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="repertoryLabel" alignment="CENTER" prefHeight="58.0" prefWidth="105.0" text="num">
+                     <font>
+                        <Font size="25.0" />
+                     </font>
+                  </Label>
+               </children>
+               <VBox.margin>
+                  <Insets top="60.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox prefHeight="58.0" prefWidth="752.0">
+               <children>
+                  <Label alignment="CENTER" prefHeight="58.0" prefWidth="130.0" text="学生:">
+                     <font>
+                        <Font size="25.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="studentNameLabel" alignment="CENTER" prefHeight="58.0" prefWidth="151.0" text="name">
+                     <font>
+                        <Font size="25.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                  </Label>
+                  <Label alignment="CENTER" prefHeight="58.0" prefWidth="105.0" text="信誉值：">
+                     <font>
+                        <Font size="25.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="studentCreditLabel" alignment="CENTER" prefHeight="58.0" prefWidth="95.0" text="num">
+                     <font>
+                        <Font size="25.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" prefHeight="58.0" prefWidth="148.0" text="借阅上限：">
+                     <font>
+                        <Font size="25.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="borrowLimitLabel" alignment="CENTER" prefHeight="58.0" prefWidth="95.0" text="num">
+                     <font>
+                        <Font size="25.0" />
+                     </font>
+                  </Label>
+               </children>
+               <VBox.margin>
+                  <Insets top="60.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Label alignment="CENTER_RIGHT" prefHeight="96.0" prefWidth="320.0" text="请输入归还时间:">
+                     <font>
+                        <Font size="22.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets right="5.0" />
+                     </HBox.margin>
+                  </Label>
+                  <DatePicker fx:id="returnDatePicker" prefHeight="38.0" prefWidth="217.0">
+                     <HBox.margin>
+                        <Insets left="5.0" top="28.0" />
+                     </HBox.margin>
+                  </DatePicker>
+               </children>
+            </HBox>
+            <HBox prefHeight="58.0" prefWidth="752.0">
+               <children>
+                  <Label alignment="CENTER" prefHeight="58.0" prefWidth="813.0" text="是否确认借阅？">
+                     <font>
+                        <Font size="25.0" />
+                     </font>
+                  </Label>
+               </children>
+               <VBox.margin>
+                  <Insets top="30.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <VBox.margin>
+                  <Insets top="30.0" />
+               </VBox.margin>
+               <children>
+                  <Button fx:id="yesBut" mnemonicParsing="false" onAction="#yesLent" prefHeight="55.0" prefWidth="120.0" text="确认">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets left="150.0" right="150.0" top="20.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button fx:id="noBut" mnemonicParsing="false" onAction="#noLent" prefHeight="54.0" prefWidth="130.0" text="取消">
+                     <font>
+                        <Font size="22.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets left="50.0" right="50.0" top="20.0" />
+                     </HBox.margin>
+                  </Button>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

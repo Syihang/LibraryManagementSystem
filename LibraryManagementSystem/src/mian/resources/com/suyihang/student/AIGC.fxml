@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.suyihang.controller.student.AIGC_Controller">
+    <top>
+        <AnchorPane fx:id="topPanel" prefHeight="39.0" prefWidth="1000.0" styleClass="topBar" stylesheets="@../css/menuBars.css" BorderPane.alignment="CENTER">
+            <children>
+                <HBox prefHeight="62.0" prefWidth="421.0">
+                    <children>
+                        <Label alignment="CENTER" prefHeight="60.0" prefWidth="148.0" text="图书管理系统">
+                            <font>
+                                <Font size="20.0" />
+                            </font>
+                            <HBox.margin>
+                                <Insets />
+                            </HBox.margin>
+                        </Label>
+                        <Label fx:id="nameLabel" alignment="CENTER_RIGHT" prefHeight="62.0" prefWidth="97.0" text="用户名" textFill="#e8ff37">
+                            <font>
+                                <Font size="18.0" />
+                            </font>
+                        </Label>
+                        <Label prefHeight="62.0" prefWidth="191.0" text="，欢迎来到图书管理系统">
+                            <font>
+                                <Font size="16.0" />
+                            </font>
+                        </Label>
+                    </children>
+                </HBox>
+                <HBox layoutX="433.0" layoutY="4.0" prefHeight="60.0" prefWidth="567.0">
+                    <children>
+                        <Label fx:id="lendBookMenu" alignment="CENTER" onMouseClicked="#skipBookLend" prefHeight="65.0" prefWidth="113.0" text="书籍借阅">
+                            <font>
+                                <Font size="18.0" />
+                            </font>
+                        </Label>
+                        <Label fx:id="returnBookMenu" alignment="CENTER" onMouseClicked="#skipBookReturn" prefHeight="65.0" prefWidth="113.0" text="书籍归还">
+                            <font>
+                                <Font size="18.0" />
+                            </font>
+                        </Label>
+                        <Label fx:id="findBookMenu" alignment="CENTER" onMouseClicked="#skipBookFind" prefHeight="65.0" prefWidth="113.0" text="借阅图表">
+                            <font>
+                                <Font size="18.0" />
+                            </font>
+                        </Label>
+                        <Label fx:id="AICGMenu" alignment="CENTER" onMouseClicked="#skipAIGC" prefHeight="65.0" prefWidth="113.0" text="AI问询">
+                            <font>
+                                <Font size="18.0" />
+                            </font>
+                        </Label>
+                        <Label fx:id="personalMenu" alignment="CENTER" onMouseClicked="#skipPersonalCenter" prefHeight="65.0" prefWidth="113.0" text="个人中心">
+                            <font>
+                                <Font size="18.0" />
+                            </font>
+                        </Label>
+                    </children>
+                </HBox>
+            </children>
+        </AnchorPane>
+    </top>
+    <center>
+        <StackPane prefHeight="150.0" prefWidth="200.0" stylesheets="@../css/StudentsView.css" BorderPane.alignment="CENTER">
+         <children>
+            <SplitPane dividerPositions="0.9967948717948717" prefHeight="160.0" prefWidth="200.0">
+              <items>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                     <children>
+                        <BorderPane layoutX="74.0" layoutY="179.0" prefHeight="534.4" prefWidth="489.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                           <left>
+                              <TableView fx:id="tableView" prefHeight="534.0" prefWidth="269.0" BorderPane.alignment="CENTER">
+                                <columns>
+                                  <TableColumn fx:id="tableColumn" prefWidth="267.20009154081345" text="问答记录" />
+                                </columns>
+                              </TableView>
+                           </left>
+                           <center>
+                              <BorderPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+                                 <bottom>
+                                    <HBox prefHeight="74.0" prefWidth="722.0" BorderPane.alignment="CENTER">
+                                       <children>
+                                          <TextField fx:id="textField" prefHeight="56.0" prefWidth="560.0">
+                                             <HBox.margin>
+                                                <Insets left="15.0" />
+                                             </HBox.margin>
+                                          </TextField>
+                                          <Button fx:id="sentBut" mnemonicParsing="false" onAction="#sentMessage" prefHeight="54.0" prefWidth="121.0" text="发送">
+                                             <font>
+                                                <Font size="22.0" />
+                                             </font>
+                                          </Button>
+                                       </children>
+                                    </HBox>
+                                 </bottom>
+                                 <center>
+                                    <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+                                       <children>
+                                          <TextArea fx:id="GPTTextArea" editable="false" layoutX="14.0" layoutY="15.0" prefHeight="430.0" prefWidth="677.0" stylesheets="@../css/AIGC.css" wrapText="true">
+                                             <font>
+                                                <Font size="18.0" />
+                                             </font>
+                                          </TextArea>
+                                       </children>
+                                    </AnchorPane>
+                                 </center>
+                              </BorderPane>
+                           </center>
+                        </BorderPane>
+                     </children>
+                  </AnchorPane>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                     <children>
+                        <BorderPane layoutX="140.8" prefHeight="534.4" prefWidth="851.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                           <bottom>
+                              <HBox prefHeight="79.0" prefWidth="992.0" BorderPane.alignment="CENTER">
+                                 <children>
+                                    <TextField fx:id="imageTF" prefHeight="46.0" prefWidth="520.0">
+                                       <HBox.margin>
+                                          <Insets left="100.0" top="15.0" />
+                                       </HBox.margin>
+                                    </TextField>
+                                    <Button fx:id="imageBut" mnemonicParsing="false" onAction="#imageButAction" prefHeight="45.0" prefWidth="148.0" text="提交">
+                                       <HBox.margin>
+                                          <Insets top="15.0" />
+                                       </HBox.margin>
+                                       <font>
+                                          <Font size="20.0" />
+                                       </font>
+                                    </Button>
+                                    <Button mnemonicParsing="false" onAction="#downloadButAction" prefHeight="46.0" prefWidth="127.0" text="下载">
+                                       <HBox.margin>
+                                          <Insets left="10.0" top="15.0" />
+                                       </HBox.margin>
+                                       <font>
+                                          <Font size="20.0" />
+                                       </font>
+                                    </Button>
+                                 </children>
+                              </HBox>
+                           </bottom>
+                           <center>
+                              <ImageView fx:id="imageView" fitHeight="438.0" fitWidth="702.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER" />
+                           </center>
+                        </BorderPane>
+                     </children>
+                  </AnchorPane>
+              </items>
+            </SplitPane>
+         </children>
+        </StackPane>
+    </center>
+</BorderPane>

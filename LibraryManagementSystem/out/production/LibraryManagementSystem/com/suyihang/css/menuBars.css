@@ -1,0 +1,20 @@
+.topBar {
+    -fx-background-color: #4CA1AF;          /* #DB7093;  #333333; */
+}
+
+.label:hover {
+    -fx-text-fill: #1FDDFF;         /*#00FFFF; */
+}
+
+.label {
+    -fx-text-fill: #FFFFFF
+}
+
+#nameLabel {
+    -fx-text-fill: #ffef61;
+}
+
+#nameLabel:hover {
+    -fx-text-fill: #00FFFF;
+
+}

@@ -1,0 +1,25 @@
+.text-area {
+    -fx-control-inner-background: #f7f7f8; /* 背景颜色 */
+    -fx-text-fill: #333333; /* 文本颜色 */
+    -fx-font-size: 14px; /* 字体大小 */
+    -fx-font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif; /* 字体 */
+    -fx-padding: 10px; /* 内边距 */
+    -fx-border-color: #e1e1e1; /* 边框颜色 */
+    -fx-border-width: 2px; /* 边框宽度 */
+    -fx-border-radius: 10px; /* 边框圆角 */
+    -fx-background-radius: 10px; /* 背景圆角 */
+    -fx-background-insets: 1px; /* 背景内边距 */
+    /*-fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.1), 1, 0, 0, 0); !* 阴影效果 *!*/
+}
+
+.text-area .content {
+    -fx-background-color: #f7f7f8; /* 内容背景颜色，与 TextArea 背景颜色一致 */
+    -fx-background-insets: 0; /* 移除默认内边距 */
+}
+
+
+.image-view {
+    -fx-border-color: black; /* 边框颜色 */
+    -fx-border-width: 2px;    /* 边框宽度 */
+    -fx-border-style: solid;  /* 边框样式，可以是 solid, dashed, dotted 等 */
+}

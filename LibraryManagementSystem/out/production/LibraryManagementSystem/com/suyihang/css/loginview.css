@@ -1,0 +1,78 @@
+StackPane {
+    -fx-background-image: url("../images/background.jpg");
+    -fx-background-size: 1000px 600px;
+    -fx-background-repeat: none;
+}
+
+Button:hover {
+    -fx-effect: dropshadow(three-pass-box, #202020, 10.0,0, 0, 0);
+}
+GridPane > Label {
+    -fx-text-fill: white;
+    -fx-font-size: 23px;
+}
+
+VBox {
+    -fx-background-color: rgba(0, 0, 0, 0.5);
+    -fx-background-radius: 10px;
+}
+
+.inputText {
+    -fx-background-color: rgba(0, 0, 0, 0);
+    -fx-border-color: rgba(256, 256, 256, 0.48);
+    -fx-text-fill: rgba(195, 195, 195, 0.70);
+    -fx-border-width: 0 0 1 0;
+}
+
+.pinkBG {
+    -fx-background-color: rgba(243, 137, 226, 0.53);
+}
+
+/*左侧的打钩盒子*/
+.check-box > .box {
+    -fx-background-color: rgba(256, 256, 256, 0.56);
+}
+
+.check-box > .box:hover {
+    -fx-background-color: rgba(256, 256, 256, 0.56);
+    -fx-effect: dropshadow(three-pass-box, #202020, 10.0,0, 0, 0);
+}
+/*下拉菜单*/
+/* 设置 ChoiceBox 的整体背景颜色和边框 */
+.choice-box {
+    -fx-background-color: #5ec8ff; /* 背景颜色 */
+    -fx-border-color: #5ec8ff;     /* 边框颜色 */
+    -fx-border-width: 2px;         /* 边框宽度 */
+    -fx-border-radius: 5px;        /* 边框圆角 */
+    -fx-background-radius: 5px;    /* 背景圆角 */
+}
+
+/* 设置 ChoiceBox 内部 Label 的字体颜色和字体样式 */
+.choice-box > .label {
+    -fx-text-fill: white;  /* 字体颜色 */
+    -fx-font-size: 16px;   /* 字体大小 */
+    -fx-font-weight: bold; /* 字体加粗 */
+}
+
+/* 设置下拉按钮旁的小三角的样式 */
+.choice-box > .open-button > .arrow {
+    -fx-background-color: white;      /* 小三角背景颜色 */
+}
+
+/* 下拉按钮的样式 */
+.choice-box > .open-button {
+    -fx-background-color: #3ca6d9; /* 背景颜色 */
+    -fx-border-radius: 5px;        /* 边框圆角 */
+    -fx-background-radius: 5px;    /* 背景圆角 */
+}
+
+/* 设置下拉菜单项的样式 */
+.choice-box .menu-item {
+    -fx-background-color: #5ec8ff;  /* 背景颜色 */
+    -fx-text-fill: white;           /* 字体颜色 */
+}
+
+.choice-box .menu-item:hover {
+    -fx-background-color: #3ca6d9;  /* 鼠标悬停时的背景颜色 */
+}
+

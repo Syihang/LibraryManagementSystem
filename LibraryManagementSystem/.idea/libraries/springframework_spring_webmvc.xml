@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="springframework.spring.webmvc" type="repository">
+    <properties maven-id="org.springframework:spring-webmvc:5.3.0" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.3.0/spring-webmvc-5.3.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.3.0/spring-aop-5.3.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.3.0/spring-beans-5.3.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.3.0/spring-context-5.3.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.3.0/spring-core-5.3.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jcl/5.3.0/spring-jcl-5.3.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-expression/5.3.0/spring-expression-5.3.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.3.0/spring-web-5.3.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

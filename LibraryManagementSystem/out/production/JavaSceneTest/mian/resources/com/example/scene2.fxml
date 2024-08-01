@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.StackPane?>
+
+<?import javafx.scene.image.Image?>
+<StackPane xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.Scene2Controller">
+    <children>
+        <ImageView fx:id="backgroundImage" fitWidth="300" fitHeight="200" preserveRatio="true">
+            <image>
+                <Image url="@/com/example/images/background.jpg" />
+            </image>
+        </ImageView>
+        <Button fx:id="backButton" text="Back to Scene 1" styleClass="custom-button"/>
+    </children>
+</StackPane>

@@ -1,0 +1,128 @@
+Button {
+    -fx-text-fill: white;
+    -fx-background-color: #202020;
+}
+AnchorPane {
+     -fx-background-color: #FFFAF0;
+}
+BorderPane {
+    -fx-background-color: #FFFAF0;
+}
+HBox {
+    -fx-background-color: #FFFAF0;
+}
+VBox {
+    -fx-background-color: #FFFAF0;
+}
+/*表总体*/
+.table-view {
+    /*主色调底色*/
+    -fx-base: #FFB6C1;
+    -fx-font-size: 20px;
+    /*item背景色*/
+    -fx-control-inner-background: #FFFAF0;
+    /*总的背景色 包括蓝色提示框*/
+    -fx-background-color: #FFB6C1; /*#FFC0CB;*/
+    /*两个border的颜色透明*/
+    -fx-table-cell-border-color:  transparent;
+    -fx-table-header-border-color: transparent;
+    -fx-alignment: center;
+}
+
+/*搞定背景色*/
+.table-view .column-header-background {
+    -fx-background-color: transparent;
+}
+
+.table-view .column-header, .table-view .filler{
+    -fx-background-color: transparent;
+}
+
+/*表头文字*/
+.table-view .column-header .label {
+    -fx-font-size: 22px;
+    -fx-text-fill: #FFFAFA;
+    -fx-alignment: center-left;
+}
+
+.table-view .column-header .label:hover {
+    -fx-font-size: 22px;
+    -fx-alignment: center-left;
+    -fx-text-fill: #81F3FF;
+}
+.table-view .column-header {
+    -fx-pref-height: 42px;
+}
+/*选中时的颜色*/
+.table-view:focused .table-row-cell:filled:focused:selected {
+    -fx-background-color: -fx-focus-color;
+}
+Button {
+    -fx-text-fill: white;
+    -fx-background-color: #FFB6C1; /*#202020;*/
+}
+Button:hover {
+    -fx-text-fill: #81F3FF;
+    -fx-effect: dropshadow(three-pass-box, #202020, 10.0,0, 0, 0);
+}
+
+.choice-box {
+    -fx-background-color: #FFB6C1;
+	-fx-background-radius: 8px; /* 圆角 */
+	-fx-font-size: 18px;	/**字体大小 */
+    -fx-text-fill: white;
+}
+.text-field:hover {
+    -fx-effect: dropshadow(three-pass-box, #202020, 10.0,0, 0, 0);
+}
+.text-area:hover {
+    -fx-effect: dropshadow(three-pass-box, #202020, 10.0,0, 0, 0);
+}
+.choice-box .context-menu{
+    -fx-background-radius: 8px;
+    -fx-font-size: 18px;
+}
+.choice-box > .open-button {
+    -fx-background-color: #FFB6C1;
+}
+/*下拉盒子旁的小三角*/
+.choice-box > .open-button > .arrow {
+    -fx-background-color: white;
+}
+
+.combo-box {
+    -fx-background-color: #FFB6C1;
+	-fx-background-radius: 8px; /* 圆角 */
+	-fx-font-size: 18px;	/**字体大小 */
+    -fx-text-fill: white;
+}
+
+
+.combo-box .context-menu{
+    -fx-background-radius: 8px;
+    -fx-font-size: 18px;
+}
+
+.combo-box-base {
+    -fx-background-color: #FFB6C1;
+    -fx-text-fill: white;
+    -fx-prompt-text-fill: white;
+}
+
+/*下拉盒子旁的小三角*/
+.combo-box-base > .arrow-button{
+    -fx-background-color: #FFB6C1;
+}
+.combo-box-base > .arrow-button:hover{
+    -fx-background-color: #FFB6C1;
+    -fx-effect: dropshadow(three-pass-box, #202020, 10.0,0, 0, 0);
+}
+.combo-box-base > .arrow-button > .arrow {
+    -fx-background-color: white;
+}
+
+.combo-box-base:editable > .text-field {
+    -fx-background-color: pink;
+    -fx-text-fill: white;
+    -fx-font-size: 18px;
+}
