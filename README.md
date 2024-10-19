@@ -1,6 +1,4 @@
 # LibraryManagementSystem
-这是我的Java实训作业 界面布局采用JavaFX设计 数据库采用Mysql数据库 （详细说明见设计文档）
-
 
 
 ### 数据库设计
