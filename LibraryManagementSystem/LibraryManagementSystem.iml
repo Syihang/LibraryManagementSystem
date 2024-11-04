@@ -1,21 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="JAVA_MODULE" version="4">
-  <component name="NewModuleRootManager" inherit-compiler-output="true">
-    <exclude-output />
-    <content url="file://$MODULE_DIR$">
+  <component name="AdditionalModuleElements">
+    <content url="file://$MODULE_DIR$" dumb="true">
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/mian/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/mian/resources" type="java-resource" />
     </content>
-    <orderEntry type="inheritedJdk" />
-    <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="lib" level="project" />
-    <orderEntry type="library" name="mysql-connector-java-8.0.20" level="project" />
-    <orderEntry type="library" name="slf4j.api" level="project" />
-    <orderEntry type="library" name="fasterxml.jackson.core" level="project" />
-    <orderEntry type="library" name="fasterxml.jackson.core.databind" level="project" />
-    <orderEntry type="library" name="springframework.spring.webmvc" level="project" />
-    <orderEntry type="library" name="alibaba.fastjson" level="project" />
-    <orderEntry type="library" name="alibaba.easyexcel" level="project" />
   </component>
 </module>
