@@ -1,6 +1,6 @@
 # 图书管理系统 (LibraryManagementSystem)
 
-这是一个Java实训作业，界面布局采用JavaFX设计，数据库采用MySQL数据库。详情请参阅设计文档。
+这是一个Java图书管理系统的项目，界面布局采用JavaFX设计，数据库采用MySQL数据库。详情请参阅设计文档。
 
 ## 目录
 
